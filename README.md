@@ -22,19 +22,20 @@ This project is a custom e-commerce website builder designed specifically for lo
 - Accounts for Stripe, Cloudinary, Google Maps API, and an email service (for Nodemailer)
 
 ### Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/gtouk/ecommercebuilder.git
-   cd ecommercebuilder
 
-2. **Frontend Setup**
+#### 1. **Clone the Repository**:
+  - open terminal (win + R) and type cmd +enter
+  - git clone https://github.com/gtouk/ecommercebuilder.git
+  - cd ecommercebuilder
+
+ #### 2. **Frontend Setup**
  - cd frontend
  - npm install
  - npm run dev
 
  Open http://localhost:3000 to view the frontend.
 
-3. **Backend Setup**
+#### 3. **Backend Setup**
  - cd backend/strapi
  - Configure PostgreSQL in config/database.js
  - npm run develop
