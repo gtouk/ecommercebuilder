@@ -24,20 +24,34 @@ This project is a custom e-commerce website builder designed specifically for lo
 ### Installation
 
 #### 1. **Clone the Repository**:
-  - open terminal (win + R) and type cmd +enter
-  - git clone https://github.com/gtouk/ecommercebuilder.git
-  - cd ecommercebuilder
+  ```sh
+   git clone https://github.com/gtouk/ecommercebuilder.git
+```
+```sh
+   cd ecommercebuilder
+```
 
  #### 2. **Frontend Setup**
- - cd frontend
- - npm install
- - npm run dev
+ ```sh
+  cd frontend
+```
+**install packages**
+```sh
+  npm install
+```
+```sh
+  npm run dev
+```
 
  Open http://localhost:3000 to view the frontend.
 
 #### 3. **Backend Setup**
- - cd backend/strapi
- - Configure PostgreSQL in config/database.js
- - npm run develop
+```sh
+  cd backend/strapi
+```
+- Configure PostgreSQL in config/database.js
+```sh
+  npm run develop
+```
 
  Access the admin panel at http://localhost:1337/admin.
